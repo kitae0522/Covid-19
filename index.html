@@ -1,0 +1,175 @@
+<!--
+
+                                                                                                                                                                               
+    .o88b.  .d88b.  db    db d888888b d8888b. 
+    d8P  Y8 .8P  Y8. 88    88   `88'   88  `8D 
+    8P      88    88 Y8    8P    88    88   88 
+    8b      88    88 `8b  d8'    88    88   88 
+    Y8b  d8 `8b  d8'  `8bd8'    .88.   88  .8D 
+    `Y88P'  `Y88P'     YP    Y888888P Y8888D'  
+
+                                                                                                          
+    Copyright © 2020 KTIAE, All rights reserved.
+        
+    #Lincense
+    All acts, such as cloning, modification, and distribution are prohibited(Not allowed) without the permission of the copyright holder.
+    
+    #저작권
+    복제, 수정 및 배포와 같은 모든 행위는 저작권 소유자의 허가 없이 금지됩니다.(허용되지 않음)
+
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- Basic Settings-->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1.5, shrink-to-fit=yes, default-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+
+    <!-- Mobile -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#386eef">
+    <meta name="msapplication-navbutton-color" content="#386eef">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#386eef">
+
+    <!-- SEO -->
+    <meta name="title" content="COVID" class="meta-title">
+    <meta name="apple-mobile-web-app-title" content="COVID">
+    <meta name="description" lang="ko" content="코로나-19 바이러스 상태" />
+    <meta name="keywords" content="코로나, COVID">
+    <meta name="author" content="코로나-19">
+
+    <!-- KaKao, Facebook -->
+    <meta property="og:title" content="COVID">
+    <meta property="og:description" content="코로나-19 바이러스 상태">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://corona.msub.kr/">
+    <meta property="og:image" content="http://corona.msub.kr/s.png">
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="COVID">
+    <meta name="twitter:description" content="코로나-19 바이러스 상태">
+    <meta name="twitter:image" content="http://corona.msub.kr/s.png">
+    <meta name="twitter:url" content="http://corona.msub.kr/">
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="all.js"></script>
+    <!--[if lt IE 9]>
+     <script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+   <![endif]-->
+
+
+    <title>COVID</title>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="loading_img">
+            <div class="circle one"></div>
+            <div class="circle two"></div>
+            <div class="circle three"></div>
+        </div>
+    </div>
+    <nav style="background: #386eef;" class="navbar navbar-expand-lg navbar-dark">
+        <a style="color: #fff;font-size: 20px" href="/" class="navbar-brand"><b>COVID</b></a>
+        <button class="navbar-toggler" onclick="myFunction(this)" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="icon-bar_1"></div>
+            <div class="icon-bar_2"></div>
+            <div class="icon-bar_3"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a style="color: #fff;" class="nav-link" href="#">확진자</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: #fff;" class="nav-link" href="#corona">완치자</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: #fff;" class="nav-link" href="#corona">사망자</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: #fff;" class="nav-link" href="#corona">의심환자</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="background" style="margin-top: 0px;">
+        <div class="background-text">
+            <h1 style="font-size: 8vh;margin-top: -100px;"><span id="confirmation"><b></b></span>명</h1>
+            <h3>확진자</h3>
+        </div>
+    </div>
+    <span id="scroll" class="demo">
+        <a href="#corona"><span></span> </a>
+    </span>
+    <div id="corona">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <center>
+                        <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)"
+                            style="font-size: 80px;color: #386eef;margin-top: 150px;margin-bottom: 150px;">
+                            Covid-19</h1>
+                    </center>
+                    <p class="lead">
+                        안녕하세요. 저희는 여러분들에게 <mark>신종 바이러스 코로나-19에 걸린 확진자, 완치자, 사망자, 의심환자 등등 많은 정보를 알려드리기 위해 이 앱/웹을
+                            제작했습니다.</mark>
+                    </p>
+                    <p class="lead">
+                        시국이 시국인 만큼 신종 바이러스 코로나-19에 감염되지 않도록 외출 시 마스크 착용 (KF94 또는 N95 이상의 마스크 권장), 개인위생수칙 준수(손 씻기, 기침 예절, 마스크 쓰기) 부탁드립니다. 
+                    </p>
+                    <p class="lead">
+                        확진자 이외에 다른 정보는 아래와 같습니다.
+                    </p>
+                    <h4>완치자 : <span id="cured"></span>명</h4>
+                    <h4>사망자 : <span id="dead"></span>명</h4>
+                    <h4>의심환자 : <span id="suspicion"></span>명</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p style="font-size: 15px;">ⓒ 2020 COVID</p>
+        <p style="margin-top:-10px;font-size: 15px;">웹 개발 : <a style="font-size: 15px;" href="http://php1.dothome.co.kr">송기태</a></p>
+        <p style="margin-top:-30px;font-size: 15px;">서버, API개발 : <a style="font-size: 15px;" href="http://p.msub.kr">이민규</a> <a style="font-size: 15px;" href="mailto:lee101570@gmail.com">(lee101570@gmail.com)</a></p> 
+    </footer>
+    <ins class="kakao_ad_area" style="display:none;" 
+    data-ad-unit    = "DAN-r1cw0z925mie" 
+    data-ad-width   = "320" 
+    data-ad-height  = "100"></ins> 
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+
+</body>
+</html>
