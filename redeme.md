@@ -22,7 +22,7 @@ $ git clone https://github.com/kitae0522/Covid-19.git
 
 <div align="center">
 
-  ![](covid-main.png)
+  ![](img/covid-main.png)
   Main-Page-Design-Palette : #386eef, #ffffff
 
 </div>
@@ -31,7 +31,7 @@ $ git clone https://github.com/kitae0522/Covid-19.git
 
 <div align="center">
 
-  ![](covid-about.png)
+  ![](img/covid-about.png)
   About-Page-Design-Palette : #386eef, #ffffff, #000000
 
 </div>

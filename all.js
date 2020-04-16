@@ -21,11 +21,14 @@ $(function () {
 });
 
 $(document).ready(() => {
-    $.getJSON("https://api.msub.kr/", (c) => {
-        $("#confirmation").append(c.confirmation);
-        $("#cured").append(c.cured);
-        $("#dead").append(c.dead);
-        $("#suspicion").append(c.suspicion)
+    $.getJSON("https://capi.msub.kr", (c) => {
+        $("#update").append(c.today.update);
+        $("#confirmation").append(c.today.confirmation);
+        $("#confirmation_2").append(c.today.confirmation + " " + c.yesterday.confirmation);
+        $("#cured").append(c.today.cured + " " + c.yesterday.cured);
+        $("#isolation").append(c.today.isolation + " " + c.yesterday.isolation);
+        $("#dead").append(c.today.dead + " " + c.yesterday.dead);
+        $("#suspicion").append(c.today.suspicion)
         $("body")
     });
 });

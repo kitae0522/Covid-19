@@ -30,7 +30,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
@@ -57,13 +57,13 @@
     <meta property="og:description" content="코로나-19 바이러스 상태">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://corona.msub.kr/">
-    <meta property="og:image" content="http://corona.msub.kr/s.png">
+    <meta property="og:image" content="http://corona.msub.kr/img/meta-image.png">
 
     <!-- twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="COVID">
     <meta name="twitter:description" content="코로나-19 바이러스 상태">
-    <meta name="twitter:image" content="http://corona.msub.kr/s.png">
+    <meta name="twitter:image" content="http://corona.msub.kr/img/meta-image.png">
     <meta name="twitter:url" content="http://corona.msub.kr/">
 
     <!-- css -->
@@ -105,16 +105,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a style="color: #fff;" class="nav-link" href="#">확진자</a>
+                    <a style="color: #fff;" class="nav-link" href="https://mask.msub.kr/">마스크 판매정보</a>
                 </li>
-                <li class="nav-item">
-                    <a style="color: #fff;" class="nav-link" href="#corona">완치자</a>
-                </li>
-                <li class="nav-item">
-                    <a style="color: #fff;" class="nav-link" href="#corona">사망자</a>
-                </li>
-                <li class="nav-item">
-                    <a style="color: #fff;" class="nav-link" href="#corona">의심환자</a>
+                <li class="nav-item active">
+                    <a style="color: #fff;" class="nav-link" href="https://msub.kr/old/COVID.apk">안드로이드 앱 다운로드</a>
                 </li>
             </ul>
         </div>
@@ -124,6 +118,7 @@
         <div class="background-text">
             <h1 style="font-size: 8vh;margin-top: -100px;"><span id="confirmation"><b></b></span>명</h1>
             <h3>확진자</h3>
+            <p style="font-size: 20px; color: #F0F0F0"><span id="update"></span></p>
         </div>
     </div>
     <span id="scroll" class="demo">
@@ -148,9 +143,14 @@
                     <p class="lead">
                         확진자 이외에 다른 정보는 아래와 같습니다.
                     </p>
+                    <h4>확진자 : <span id="confirmation_2"></span>명</h4>
                     <h4>완치자 : <span id="cured"></span>명</h4>
+                    <h4>치료중 : <span id="isolation"></span>명</h4>
                     <h4>사망자 : <span id="dead"></span>명</h4>
-                    <h4>의심환자 : <span id="suspicion"></span>명</h4>
+                    <h4>검사중 : <span id="suspicion"></span>명</h4>
+                    <p data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+                        <a style="font-size:20px;" href="https://mask.msub.kr/">마스크 판매처에 대해서 궁금하신가요?</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -158,13 +158,9 @@
 
     <footer class="footer">
         <p style="font-size: 15px;">ⓒ 2020 COVID</p>
-        <p style="margin-top:-10px;font-size: 15px;">웹 개발 : <a style="font-size: 15px;" href="http://php1.dothome.co.kr">송기태</a></p>
+        <p style="margin-top:-10px;font-size: 15px;">웹 개발 : <a style="font-size: 15px;" href="http://kitae0522.dothome.co.kr">송기태</a></p>
         <p style="margin-top:-30px;font-size: 15px;">서버, API개발 : <a style="font-size: 15px;" href="http://p.msub.kr">이민규</a> <a style="font-size: 15px;" href="mailto:lee101570@gmail.com">(lee101570@gmail.com)</a></p> 
     </footer>
-    <ins class="kakao_ad_area" style="display:none;" 
-    data-ad-unit    = "DAN-r1cw0z925mie" 
-    data-ad-width   = "320" 
-    data-ad-height  = "100"></ins> 
     <script>
         function myFunction(x) {
             x.classList.toggle("change");
