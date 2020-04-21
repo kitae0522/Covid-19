@@ -11,6 +11,8 @@ $ git clone https://github.com/kitae0522/Covid-19.git
 ## 1. 소개
 신종 바이러스 코로나-19에 걸린 확진자, 완치자, 사망자, 의심환자 등등 많은 정보를 정부 사이트에서 크롤링 해 알려주는 웹입니다.
 
+[Node.js로 작업한 Api 보러가기](https://github.com/kitae0522/Covid-19-Api)
+
 이 프로젝트는 코로나-19 바이러스가 종식되면 종료됩니다.
 
 - 주요 기능
