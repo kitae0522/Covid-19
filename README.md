@@ -6,6 +6,7 @@
 $ git clone https://github.com/kitae0522/Covid-19.git
 $ npm init
 $ npm i --save request express cheerio
+$ node main.js
 ```
 
 ----------
