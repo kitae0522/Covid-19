@@ -8,20 +8,44 @@ $ git clone https://github.com/kitae0522/Covid-19.git
 
 ----------
 
-## 1. 소개
-신종 바이러스 코로나-19에 걸린 확진자, 완치자, 사망자, 의심환자 등등 많은 정보를 정부 사이트에서 크롤링 해 알려주는 웹입니다.
+## 1. Folder Structure
 
-[Node.js로 작업한 Api 보러가기](https://github.com/kitae0522/Covid-19-Api)
+```shell
+.
+├── css
+│   ├── button.css
+│   ├── demo.css
+│   ├── loading.css
+│   ├── main.css
+│   ├── media.css
+│   └── scroll_down.css
+├── img
+│   ├── favicon.ico
+│   ├── songkitae.png
+│   ├── main-page.png
+│   └── about-page.png
+├── js
+│   ├── all.js
+│   ├── ScrollTrigger.js
+│   └── ScrollTrigger.min.js
+├── about.html
+├── index.html
+├── portfolio.pdf
+└── README.md
+```
 
-~~이 프로젝트는 코로나-19 바이러스가 종식되면 종료됩니다.~~
-서비스 종료하였습니다. (2020.04.21 기준)
+## 2. Introduce
+It is a web that crawls a lot of information on government sites such as confirmed cases, cured patients, deaths, suspected patients, etc. of the new virus Corona-19.
 
-- 주요 기능
-  - 📊 확진자 수 정보 제공
-  - 📊 완치자, 치료 중인 사람, 사망자, 검사 중인 사람 정보 제공
-  - 📢 마스크 판매처 사이트 중개
+~~The project ends when the Corona-19 virus ends.~~
+The service has been end. (based on 2020.04.21)
 
-## 2. Main-Page-Design
+- Key Function
+  - 📊 Provide number of confirmation cases
+  - 📊 Provide information about the complete healer, person under treatment, death, and person under examination
+  - 📢 Mask Seller Site Brokerage
+
+## 3. Main-Page-Design
 
 <div align="center">
 
@@ -30,7 +54,7 @@ $ git clone https://github.com/kitae0522/Covid-19.git
 
 </div>
 
-## 3. About-Page-Design
+## 4. About-Page-Design
 
 <div align="center">
 
@@ -39,14 +63,17 @@ $ git clone https://github.com/kitae0522/Covid-19.git
 
 </div>
 
-## 2. 개발 및 구동 환경
+## 5. Development Environment
 - HTML5
 - CSS3
 - JS
 - Bootstrap4
 - VS Code
 
-## 3. 개발자 정보
-- 서버 : [MSUB 호스팅](http://msub.kr) 사용
-- 개발자 : 송기태, 이민규
-- 문의사항 및 피드백 : kitae040522@gmail.com
+## 6. Developer Info
+- Server : [MSUB HOSTING](http://msub.kr)
+- Developer : Song Kitae, Lee Mingyu
+- Feedback : kitae040522@gmail.com
+- Address : ~~[https://corona.msub.kr](#)~~
+- Viewport : Reactive
+- Git : [http://github.com/kitae0522/Portfolio_2020](https://bit.ly/330FtBo)
