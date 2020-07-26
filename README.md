@@ -12,25 +12,15 @@ $ git clone https://github.com/kitae0522/Covid-19.git
 
 ```shell
 .
-├── css
-│   ├── button.css
-│   ├── demo.css
-│   ├── loading.css
-│   ├── main.css
-│   ├── media.css
-│   └── scroll_down.css
 ├── img
 │   ├── favicon.ico
-│   ├── songkitae.png
-│   ├── main-page.png
-│   └── about-page.png
-├── js
-│   ├── all.js
-│   ├── ScrollTrigger.js
-│   └── ScrollTrigger.min.js
-├── about.html
+│   ├── covid-about.png
+│   ├── covid-main.png
+│   └── meta-image.png
+├── all.js
+├── main.js
+├── main.css
 ├── index.html
-├── portfolio.pdf
 └── README.md
 ```
 
