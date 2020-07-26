@@ -1,9 +1,11 @@
 # Covid-19
 
-## git-clone
+## How To Run?
 
-```bash
+```shell
 $ git clone https://github.com/kitae0522/Covid-19.git
+$ npm init
+$ npm i --save request express cheerio
 ```
 
 ----------
