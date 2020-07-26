@@ -69,4 +69,4 @@ The service has been end. (based on 2020.04.21)
 - Feedback : kitae040522@gmail.com
 - Address : ~~[https://corona.msub.kr](#)~~
 - Viewport : Reactive
-- Git : [http://github.com/kitae0522/Portfolio_2020](https://bit.ly/330FtBo)
+- Git : [http://github.com/kitae0522/Covid-19](http://github.com/kitae0522/Covid-19)
